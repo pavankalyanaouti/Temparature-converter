@@ -1,0 +1,68 @@
+body{
+  margin-top: 60px;
+  text-align:center;
+  background: linear-gradient(45deg,rgb(180, 169, 235),rgb(159, 88, 126));
+  height: 100vh;
+
+}
+
+h1 {
+  padding-bottom: 0.5rem;
+  color: blanchedalmond;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+input[type=number] {
+  cursor: pointer;
+}
+
+#input-celsius{
+  border-radius: 40px;
+  margin-bottom: 8px;
+  background-color: #53DDCF;
+  font-size: 2.5rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+#input-fahrenheit{
+  border-radius: 40px;
+  margin-bottom: 8px;
+  background-color: #17BAC5;
+  font-size: 2.5rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#input-kelvin{
+  border-radius: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #43a0d9;
+  font-size: 2.5rem;
+}
+
+.form-padding {
+  padding: 2rem 1rem;
+}
+
+::-webkit-input-placeholder {
+  color: #FFFFFF !important;
+}
+::-moz-placeholder {
+  color: #FFFFFF !important;
+}
+:-ms-input-placeholder {
+  color: #FFFFFF !important;
+}
+:-moz-placeholder {
+  color: #FFFFFF !important;
+}
+
+footer{
+  padding-top: 1.5rem;
+  font-size: 0.7rem;
+  line-height: 0.2rem;
+  text-align:center;
+}
+
+.icons{
+  max-width: 25px;
+  height: auto;
+}
